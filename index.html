@@ -6,19 +6,184 @@
     <title>Notícias Cidade - Seu site de Notícias</title>
     <link rel="stylesheet" href="css/estilo.css">
 </head>
-<body>
+<body class="inicio">
+    <!--inicio conteiner-->
     <div id="container">
+
+        <!--inicio topo-->
         <div id="topo">
             <h1 class="logo">Notícias Cidade</h1>
                 <ul id="navegacao">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="brasil.html">Brasil</a></li>
-                    <li><a href="internacional.html">Internacional</a></li>
-                    <li><a href="economia.html">Economia</a></li>
-                    <li><a href="saude.html">Saúde</a></li>
-                    <li><a href="ciencia.html">Ciência</a></li>
-                    <li><a href="fotos.html">Fotos</a></li>
+                    <li class="primeiro">
+                        <a id="home" href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a id="brasil" href="brasil.html">Brasil</a>
+                    </li>
+                    <li>
+                        <a id="internacional" href="internacional.html">Internacional</a>
+                    </li>
+                    <li>
+                        <a id="economia" href="economia.html">Economia</a>
+                    </li>
+                    <li>
+                        <a id="saude" href="saude.html">Saúde</a>
+                    </li>
+                    <li>
+                        <a id="ciencia" href="ciencia.html">Ciência</a>
+                    </li>
+                    <li>
+                        <a id="fotos" href="fotos.html">Fotos</a>
+                    </li>
                 </ul>
+        </div><!--fim topo-->
+
+        <!--inicio conteudo-->
+        <div id="conteudo">
+            <div id="primario">
+                <div class="caixa destaque">
+                    <h2>Destaques</h2>
+                    
+                    <div class="caixaConteudo">
+                        <h3>Nova legislação</h3>
+                        <img class="imagemPrincipal" src="img/taxi.jpg" width="100%">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipiscing elit.
+                        </p>
+                        <a href="">Leia mais...</a>
+                    </div>
+                  </div>
+
+                  <div class="caixa">
+                    <h2>Mundo</h2>
+                    
+                    <div class="caixaConteudo">
+                        
+                        <ul id="listaNoticia">
+                            <li>
+                                <a href=""><img src="img/tecnologia.jpg" width="80">
+                                    <h3>Novas tecnologias</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur...</p>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href=""><img src="img/tecnologia.jpg" width="80">
+                                    <h3>Novas tecnologias</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur...</p>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href=""><img src="img/tecnologia.jpg" width="80">
+                                    <h3>Novas tecnologias</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur...</p>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href=""><img src="img/tecnologia.jpg" width="80">
+                                    <h3>Novas tecnologias</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur...</p>
+                                </a>
+                            </li>
+                        </ul>
+
+                    </div>
+                  </div>
+            </div>
+
+            <div id="secundario">
+                <div class="caixa destaque">
+                    <h2>Última entrevista</h2>
+                    
+                    <div class="caixaConteudo">
+                        <h3>Entrevista com Drake Ramoray</h3>
+                        <img class="imagemPrincipal" src="img/doutor.jpg" width="100%">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipiscing elit.
+                        </p>
+                        <a href="">Leia mais...</a>
+                    </div>
+                  </div>
+
+                  <div class="caixa">
+                    <h2>Notícias recentes</h2>
+                    
+                    <div class="caixaConteudo">
+                        
+                        <ul id="listaNoticia">
+                            <li>
+                                <a href=""><img src="img/cidade.jpg" width="80">
+                                    <h3>Novas tecnologias</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur...</p>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href=""><img src="img/taxi.jpg" width="80">
+                                    <h3>Novas tecnologias</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur...</p>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href=""><img src="img/tecnologia.jpg" width="80">
+                                    <h3>Novas tecnologias</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur...</p>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href=""><img src="img/doutor.jpg" width="80">
+                                    <h3>Novas tecnologias</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur...</p>
+                                </a>
+                            </li>
+                        </ul>
+
+                    </div>
+                  </div>
+            </div>
+
+            <div id="lateral"><!--inicio lateral-->
+              <div class="caixa">
+                <h2>Entrevistas</h2>
+                <div class="caixaConteudo">
+                    <ul>
+                    <li><a href="">Chandler Bing</a></li>
+                    <li><a href="">Joey Tribbiani</a></li>
+                    <li><a href="">Monica Geller</a></li>
+                    <li><a href="">Phoebe Buffay</a></li>
+                    <li><a href="">Rachel Green</a></li>
+                    <li><a href="">Ross Geller</a></li>
+                    </ul>
+                </div>
+              </div>  
+
+              <div class="caixa">
+                <h2>News</h2>
+                <div class="caixaConteudo">
+                    <form>
+                        <div>
+                            <label for="email">E-mail</label>
+                            <input type="text" name="email" id="email" placeholder="E-mail">
+                        </div>
+                        <div>
+                            <input class="submit" type="submit" value="Cadastrar">
+                        </div>
+                    </form>
+                </div>
+              </div>  
+            </div><!--fim lateral-->
+
+        </div><!--fim conteudo-->
+
+    </div><!--fim conteiner-->
+     
+    <div id="containerRodape" style="clear: both;">
+        <div id="rodape">
+            &copy; Copyright 2000-2024 Notícias Cidade
         </div>
     </div>
 </body>
